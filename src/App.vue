@@ -10,19 +10,18 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import BarraLateral from './components/BarraLateral.vue';
-import FormularioTarefa from './components/Formulario.vue';
+import { defineComponent } from "vue";
+import BarraLateral from "./components/BarraLateral.vue";
+import FormularioTarefa from "./components/Formulario.vue";
 
 export default defineComponent({
-  name: 'App',
+  name: "App",
   components: {
     BarraLateral,
-    FormularioTarefa
-  }
+    FormularioTarefa,
+  },
 });
 </script>
 
 <style>
-
 </style>
